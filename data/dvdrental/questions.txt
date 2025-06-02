@@ -1,0 +1,118 @@
+Question 1:
+	Read all data in the dvdrental folder with its original name
+	You can do it manually by giving the path names, but nice to do it with python.
+
+Question 2:
+
+	SQL Query
+	SELECT 0.6 * replacement_cost AS updated_cost
+			FROM film;
+		
+Question 3:
+	Skip the first 25 rows and return next 20 films from film table.
+	
+Question 4:
+	Add an alias for rental_duration column in the film table
+	
+Question 5:
+	Concatenate first_name and last_name columns with a space between them.
+	
+Question 6:
+Sort all the films by replacement_cost in ascending, and rental_rate in descending order.
+
+Question 7:
+Find all the movies which don't have PG-13 rating OR length is greater than 50.
+
+Question 8:
+Retrieve a list of films that are either rated 'PG' or 'PG-13' and have a replacement cost less than  10𝑜𝑟𝑔𝑟𝑒𝑎𝑡𝑒𝑟𝑡ℎ𝑎𝑛 25.
+
+Question 9:
+Retrive all films that are rated 'PG' or 'PG-13'or 'NC-17'
+
+Question 10:
+What is the unique values of rental_duration column in the film table
+
+Question 11:
+The values between '2005-05-26' AND '2005-06-01' in the rental data
+
+Question 12:
+Find all the movies that the third letter of the title is 'm'.
+
+Question 13:
+Find all the movies that the third letter of the title is 'm' and last letter is 'y'.
+
+Question 14:
+What is the sum of all replacement_cost in the film table.
+
+Question 15:
+Average rental duration and max of replacement cost for films in each rating category.
+
+Question 16:
+Find the total amount for each customer ID in the payment table.
+
+Question 17:
+Retrieve the number of films in each rating category and replacement cost
+
+Question 18:
+Find out customers (payment table) who spend more than $150, but only consider payments after February 20, 2007.
+
+Question 19:
+find out the films (film IDs) that have an average rental duration greater than 5 days, but we're only interested in those films that have a rental rate less than or equal to $2.99.
+
+Question 20:
+Find the total amount spent by customer ID 23.
+HINT: Consider using payment and customer data both.
+
+Question 21:
+Retrieve Customers (first and last name) who live in California and their email address.
+
+Question 22:
+Find Customers Who Rented King Evolution
+
+Question 23:
+Find the number of films per category
+
+Question 24:
+Find out the films with titles starting with 'A' and rented
+
+Question 25:
+Find out the most rented film categories
+
+Question 26:
+Retrieve the films whose replacement cost is greater than average replacement cost
+
+Question 27:
+Find the payments made by customer first name Linda ( join can be used in this question as well)
+
+Question 28:
+find the movies whose rental_rate is greater than average rental_rate
+
+Question 29:
+Suppose you want to find the number of transactions where the amount is between 0.5 and 4. (We can solve this question simply by using WHERE clause...) this is for just practicing WHEN – CASE
+
+Question 30:
+Write a CASE statement that if a customer_id is less than 100,label that customer as "premium" if a customer_id is between 100 and 200 "Plus", everything else "Normal."
+Solve this in pandas with apply method and .loc. For each solution create seperate columns and than verify if these two columns are exactly the same.
+
+Question 31:
+If the payment month is July then label it july special if the payment month is September then label it fall special, for the others label it nothing special
+Solve this in pandas with apply method and .loc. For each solution create seperate columns and than verify if these two columns are exactly the same.
+
+Question 32:
+Identify the first film of each rating in the inventory based on the film's title in alphabetical order.
+
+Question 33:
+Identify the first 2 film of each rating in the inventory based on the film's title in alphabetical order.
+
+Question 34:
+Identify the earliest payment date for each customer and sort them according to customer_id
+
+Question 35:
+How to find customer names based on the previous question:
+
+Question 36:
+For each customer in the payment table, display the last payment amount they made.
+
+Question 37:
+Find the last rented film_id and title for each customer (customer_id)
+
